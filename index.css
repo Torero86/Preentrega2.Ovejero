@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+margin: 0;
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,o,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,o,0,0.5);
+    color: white;
+    background-color: rgb(55, 88, 44);
+
+}
+
+button:hover{background-color: rgb(195, 228, 183)
+
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-labarley{
+    color: rgb(55, 141, 27);
+}
+
+header{
+    background-color: rgb(80, 97, 74);
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(100, 155, 84) ;
+    font-size: 4em;
+    font-family: fantasy;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(55, 141, 27);
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image:
+    url("media/hallgrande.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Labarley{
+
+}
+#Labarley .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestrascervezas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+#nuestrascervezas h2{
+    color:  rgb(55, 141, 27);
+    font-size: 3em;
+    margin-top: 0;
+    
+}
+
+
+
+#nuestrascervezas .container{
+    padding: 150px 12px;
+
+}
+
+#nuestrascervezas p{
+    display: none;
+}
+
+#nuestrascervezas .cervezas{
+    background-position: center center;
+    background-size: cover;
+    padding: 10px;
+
+}
+.cervezas :first-child{background-image: url;
+    
+
+}
+
+.cervezas:nth-child(2){
+background-image:url(media/varias.jpg);
+}
+.cervezas:nth-child(3){
+
+}
+#caracteristicas .container{
+    text-align: center;
+    padding: 250px 12px;
+
+
+}
+#caracteristicas li{
+    margin: 12px 0px;
+    font: bold;
+}
+#laFabrica{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+#laFabrica h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#laFabrica p{
+    text-align: center;
+    margin: 20px;
+    color: rgb(55, 88, 44) ;
+    font-size: 2em;
+
+
+}
+
+#conoce-nuestras-cervezas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+
+}
+#conoce-nuestras-cervezas h2{
+    font-size: 5vw;
+}
+#conoce-nuestras-cervezas button{
+    font-size: 3vw;
+}
+Footer{
+    background-color: rgb(178, 235, 187);
+}
+Footer p{
+    margin: 0;
+    color(100,100,100)
+   
+}
+Footer .container{
+    height: 50px;
+    a
+
+       
+}
